@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="mainVbox" prefHeight="407.0" prefWidth="601.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="friends" textAlignment="CENTER" wrappingWidth="599.9806976318359">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </children>
+</HBox>

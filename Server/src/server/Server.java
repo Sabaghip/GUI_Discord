@@ -19,7 +19,7 @@ public class Server {
     static private ArrayList<Member> members = new ArrayList<>();
     static private ArrayList<Serverr> servers = new ArrayList<>();
     static private ArrayList<Chat> chats = new ArrayList<>();
-    static FileHandling f = new FileHandling("files\\members.bin", "files\\servers.bin", "files\\chats.bin");
+    static FileHandling f = new FileHandling("Server/files/members.bin", "Server/files/servers.bin", "Server/files/chats.bin");
 
 
     public void run() throws IOException, ClassNotFoundException, UnsupportedAudioFileException, LineUnavailableException {
